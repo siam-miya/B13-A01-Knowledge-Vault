@@ -171,3 +171,48 @@ a {
   line-height: 20px;
 }
 /* notes section end */
+/* knowledge section start */
+   #knowledge {
+    padding-bottom: 120px;
+   }
+   #knowledge .knowledge-items {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 60px;
+   }
+   #knowledge .knowledge-items .text {
+     font-size: 16px;
+     line-height: 20px;
+     color: #469165;
+   }
+   #knowledge .knowledge-items h1 {
+     font-size: 48px;
+     font-weight: bold;
+     color: #001931;
+     padding-right: 164px;
+     padding-top: 16px;
+     padding-bottom: 16px;
+   }
+   #knowledge .knowledge-items p {
+     font-size: 16px;
+     line-height: 20px;
+     padding-right: 180px;
+     color: #627382;
+   }
+   #knowledge .knowledge-items .check {
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   gap: 6px;
+   padding-bottom: 16px;
+   }
+   #knowledge .knowledge-items .check p{
+   font-size: 16px;
+   line-height: 20px;
+   color: #001931;
+   }
+   #knowledge .knowledge-items .checkmark {
+   padding-top: 40px;
+   }
+/* knowledge section end */
