@@ -216,3 +216,49 @@ a {
    padding-top: 40px;
    }
 /* knowledge section end */
+/* early-access section start */
+#early-access {
+    margin-bottom: 120px;
+    text-align: center;
+}
+#early-access .early-access-item{
+    padding-top: 80px;
+    padding-bottom: 80px; 
+    background-color: #F7F6F2;
+    border-radius: 12px;
+}
+ .early-access-item h1{
+    font-weight: bold;
+    font-size: 40px;
+    color: #001931;
+}
+ .early-access-item p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    padding-left: 380px;
+    padding-right: 380px;
+}
+.early-access-item button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 16px;
+    margin-bottom: 10px;
+    background-color: #469165;
+    color: #FFFFFF;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 580px;
+    border-radius: 4px;
+    transition: all linear 0.3s;
+}
+.early-access-item button:hover {
+    background-color: #001931;
+    color: goldenrod;
+}
+/* early-access section end */
