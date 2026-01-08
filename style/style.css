@@ -127,5 +127,47 @@ a {
   align-items: center;
   justify-content: center;
 }
-
 /* banner section end */
+/* notes section start */
+#notes {
+    padding-top: 60px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+#notes .notes-items h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    padding-bottom: 16px;
+}
+#notes .notes-items p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    padding-bottom: 44px;
+}
+.notes-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.notes-cards .card  {
+  padding: 40px 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.10);
+}
+.notes-cards .card img{
+   background-color: #F95555;
+   border-radius: 100%;
+   padding: 10px;
+}
+.notes-cards .card h4{
+  padding: 16px 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+.notes-cards .card p{
+  font-size: 16px;
+  line-height: 20px;
+}
+/* notes section end */
